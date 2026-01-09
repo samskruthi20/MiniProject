@@ -12,6 +12,8 @@ import seleniumFramework.pageObjects.ProductCatalog;
 import seleniumFramework.testComponents.BaseTest;
 import seleniumFramework.testComponents.Retry;
 
+//Git test by Samskruthi
+
 public class ErrorValidationsTest extends BaseTest{
 	
 	

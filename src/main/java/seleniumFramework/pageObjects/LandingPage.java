@@ -29,18 +29,18 @@ public class LandingPage extends BaseClass {
 	
 	//using PageFactory
 	@FindBy(id="userEmail")
-	WebElement useremail;
+	private WebElement useremail;
 
 	
 	@FindBy(id="userPassword")
-	WebElement userpassword;
+	private WebElement userpassword;
 	
 	@FindBy(id="login")
-	WebElement loginbtn;
+	private WebElement loginbtn;
 	
 	
 	@FindBy(css="[class*='flyInOut']")
-	WebElement errorMessage;
+	private WebElement errorMessage;
 	
 	
 	
