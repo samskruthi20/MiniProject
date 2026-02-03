@@ -24,10 +24,10 @@ public class ProductCatalog extends BaseClass {
 
 	//List<WebElement> products = driver.findElements(By.xpath("//div[@class='card']//h5/b"));
 	@FindBy(css = ".mb-3")
-	List<WebElement> products;
+	private List<WebElement> products;
 	
 	@FindBy(css = ".ng-animating")
-	WebElement spinner;
+	private WebElement spinner;
 	
     
 	By productsBy = By.cssSelector(".mb-3");

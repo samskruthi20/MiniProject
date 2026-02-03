@@ -27,11 +27,11 @@ public class OrderDetailsPage extends BaseClass{
 	//driver.findElements(By.cssSelector(".cartSection h3"));
 	
 	@FindBy(css =".cartSection h3")
-	List<WebElement> cartProductList;
+	private List<WebElement> cartProductList;
 	
 	//driver.findElement(By.cssSelector(".totalRow button"))
 	@FindBy(css=".totalRow button")
-	WebElement checkOutButton;
+	private WebElement checkOutButton;
 	
 	
 	public boolean checkOutProceed(String productName) {

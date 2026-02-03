@@ -21,11 +21,11 @@ public class OrderHistoryPage extends BaseClass{
 	}
 
 	 @FindBy(css ="tr td:nth-child(3)")
-		List<WebElement> productNames;
+	 private List<WebElement> productNames;
 		
 		//driver.findElement(By.cssSelector(".totalRow button"))
 		@FindBy(css=".totalRow button")
-		WebElement checkOutButton;
+		private WebElement checkOutButton;
 		
 		
 		public boolean verifyOrderDisplay(String productName) {

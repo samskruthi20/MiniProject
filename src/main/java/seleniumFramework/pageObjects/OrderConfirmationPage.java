@@ -24,13 +24,13 @@ public class OrderConfirmationPage extends BaseClass{
 	//driver.findElement(By.cssSelector("tbody tr.ng-star-inserted td.em-spacer-1"));
 	
 	@FindBy(css="tbody tr.ng-star-inserted td.em-spacer-1")
-	WebElement orderId;
+	private WebElement orderId;
 	
 	
 	//driver.findElement(By.cssSelector(".hero-primary"));
 	
 	@FindBy(css=".hero-primary")
-	WebElement message;
+	private WebElement message;
 	
 	public String getorderId() {
 		
